@@ -9,7 +9,7 @@
 
 ---
 
-<b name="coding">Coding round questions</b><br/>
+## <b name="coding">Coding round questions</b><br/>
 
 #### Popular Tags
 
@@ -121,9 +121,7 @@
   Input is given as:
   `(P(C()())(C()())) P is for Parent, C is for child. if parent has one child : (P(C()())()) if parent has no child : (P()())`
 - A company sells its products with a unique serial number on it. Company has has found that there are some products that don’t sell well which are identified to have ominous numbers in the serial number of the product. So if a serial number of the product contains atmost ’k’ ominous number then it won’t sell.
-  Given a range form s to e, you need to find number of products that would sell, leaving out the products that contains atmost ’k’ ominous numbers.
-
-`Input: First line contains the number of test cases, followed by the range s to e, 1`
+  Given a range form s to e, you need to find number of products that would sell, leaving out the products that contains atmost ’k’ ominous numbers. `Input: First line contains the number of test cases, followed by the range s to e, 1`
 
 - You are given N unique numbers a1<a2<a3<...an. Find out the count of all possible binary search trees that can be constructed using these numbers.
   For example with 3 elements 1,2,3, there are 5 possible BST and for 1,2,3,4 there are 14 BST.
@@ -368,9 +366,10 @@
 
 ---
 
-<b name="tech">Technical Interview Questions</b>
+## <b name="tech">Technical Interview Questions</b>
+
 <br/>
-<i><a name="dsalg">Data Structures and Algorithms</a></i>
+<a name="dsalg"><h3>Data Structures and Algorithms</h3></a>
 
 - Write the code of heap sort and complexity in different cases.
 - Implement Kadane's Algorithm.
@@ -403,7 +402,7 @@
   told was hashing).
 - Given a binary tree remove nodes to make it 'Perfect'. Print all removed nodes.
   <br/><br/>
-  <i><a name="dbms">DBMS</a></i>
+  <a name="dbms"><h3>DBMS</h3></a>
 
 - What is view in DBMS?
 - What is Indexing?
@@ -414,7 +413,7 @@
 - Describe join operation w.r.t databases.
   <br/>
   <br/>
-  <i><a name="os">Operating System</a></i>
+  <a name="os"><h3>Operating System</h3></a>
 
 - What is page fault and why it occurs?
 - What is virtual memory?
@@ -447,7 +446,7 @@
   to suffer from the problem of starvation? How to recover from starvation?
 - Static and dynamic memory allocation and followup questions on stack and heap.
   <br/>
-  <i><a name="misc">Miscellaneous</a></i>
+  <a name="misc"><h3>Miscellaneous</h3></a>
 
 - Explain and give an example of a function pointer. Write function pointer for a function that takes an integer as a parameter and returns character.
 - Implement you own strcat() function. Dont use string header.
